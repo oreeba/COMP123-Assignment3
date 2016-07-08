@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace COMP123_Assignment3
 {
-    class Program
-    {
-        static void Main(string[] args)
+    //interface will include a method Habitable that retunrs a bool data type
 
-        {
-        }
+    public interface IHabitable
+
+    {
+        
+        bool Habitable();
     }
 }
+

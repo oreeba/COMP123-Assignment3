@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace COMP123_Assignment3
 {
-    class Program
-    {
-        static void Main(string[] args)
+    //Interface will include a method HasRings that retunrs a bool data type
 
-        {
-        }
+    public interface IHasRings
+    {
+
+        bool HasRings();
     }
 }
+
