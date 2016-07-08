@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*
          * Author: Oreeba Badar
          * Student # : 300865033
-         * Date Modified: July 7th, 2016
+         * Date Modified: July 8th, 2016
          * Description: Terrestrial Planet Class                
          */
 
