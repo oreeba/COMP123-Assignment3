@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+         * Author: Oreeba Badar
+         * Student # : 300865033
+         * Date Modified: July 7th, 2016
+         * Description: Terrestrial Planet Class                
+         */
+
 namespace COMP123_Assignment3
 {
     class TerrestrialPlanet: Planet, IHasMoons, IHabitable

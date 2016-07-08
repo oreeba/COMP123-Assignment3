@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+         * Author: Oreeba Badar
+         * Student # : 300865033
+         * Date Modified: July 7th, 2016
+         * Description: Planet Class                
+         */
+
 namespace COMP123_Assignment3
 {
     abstract class Planet
@@ -96,7 +103,7 @@ namespace COMP123_Assignment3
         public Planet(string name, double diameter, double mass)
         {
 
-            //Assign local variables to instance variables----------------------------------
+            //Assign local variables to instance variables
             this._name = name;
             this._diameter = diameter;
             this._mass = mass;
@@ -107,7 +114,7 @@ namespace COMP123_Assignment3
         public override string ToString()
         {
 
-            //Return the Name, Diameter and mass -------------------------------------------
+            //Return the Name, Diameter and mass 
             return this._name + " has:\n\tDiameter: " + this._diameter + " km \n\tMass: " + this._mass + " kg ";
         }
 

@@ -4,14 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+         * Author: Oreeba Badar
+         * Student # : 300865033
+         * Date Modified: July 7th, 2016
+         * Description: Giant Planet Class                 
+         */
+
 namespace COMP123_Assignment3
 {
     class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         //PRIVATE INSTANCE VARIABLES********************************************************************
+
         private string _type;
 
         //PUBLIC PROPERTIES*****************************************************************************
+
         public string Type
         {
             get
